@@ -1,6 +1,6 @@
 TARGET = archiver
 CC = gcc
-CFLAGS = -Wall -Wextra -Wuninitialized -g
+CFLAGS = -Wall -Wextra -Werror -std=c11 -D_DEFAULT_SOURCE
 OBJ_DIR = build
 
 SRCS = $(wildcard *.c)

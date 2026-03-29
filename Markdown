@@ -1,0 +1,5 @@
+# Archiver
+Simple file archiver in C. Learning project inspired by CS:APP and K&R.
+
+## How to build
+make
